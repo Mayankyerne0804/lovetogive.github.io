@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    box-sizing: border-box;
+    background: linear-gradient(rgba(88, 88, 88, 0.6),rgba(88, 88, 88, 0.3)),url(/images/donate.jpeg);
+    height: 700px;
+    width: 100%;
+padding: 10px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+    font-size: 40px;
+    color: lightgrey;
+    font-family: cursive;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+}
+a{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-size: 30px;
+    padding: 20px;
+}
+a:hover{
+    color: rgb(250, 250, 250);
+}
+p{
+    font-size: 70px;
+    
+    padding: 40px;
+    margin-top: 40px;
+    color: rgb(218, 218, 218);
+    text-align:center;
+
+}
+#paybutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay a{
+
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(224, 224, 224);
+    background-color: rgb(47, 199, 55);
+    width:150px;
+    height: 40px;
+    border-radius: 30px;
+}
+.pay a:hover{
+    color: rgb(47, 199, 55);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
