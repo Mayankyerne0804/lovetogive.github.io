@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*****************************  nevigation bar ****************************/
+.nevbar{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    display: flex;
+    background-color: transparent;
+}
+.wrap a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+.wrap a h1{
+    margin: 15px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap a h1 span{
+    color: rgb(162, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    flex: 1;
+    text-align: right;
+    margin-top: 28px;
+    margin-right: 100px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+}
+.menu ul li a:hover{
+    color:rgb(162, 0, 255);
+}
+.menuicon{
+    margin: auto;
+    color: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+.menuicon i span {
+    font-weight: 600;
+}
+
+/**************  background cover image  ***************/
+.cover {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url("/images/odisha-makes-progress-in-its-fight-against-malnutrition-but-theres-still-a-long-way-to-go.jpg");
+    background-size: cover;
+    z-index: -200; 
+    color: white;
+}
+.cover .information {
+    align-items: center;
+    max-width: 1000px ;    
+    margin: 0 auto;
+    padding-top: 10%;
+}
+.information h3 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+.information h3 span {
+    float: right;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.information h2 {
+    font-size: 30px;
+}
+.information h1 span{
+    font-size: 110px;
+    line-height: 120px;
+    color: rgb(162, 0, 255);;
+    letter-spacing: 10px;
+}
+.information a {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.information a button{
+    padding: 8px 80px;
+    cursor: pointer;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, transparent 50%, rgb(162, 0, 255) 50%);
+    background-size: 200%;
+    background-position: left;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: white;
+    margin: 40px 0 -50%;
+    width: 100%;
+}
+.information a button:hover {
+    background-position: right;
+    color: white;
+}
+/* *******************************   About us  **************************************** */
+.about{
+    width: 100%;
+    display: flex;
+    background-color:#F8F9FA;
+    padding-top: 80px;
+}
+/* About image */
+.about .imgcontanner{
+    width: 50%;
+    position: relative;
+    
+}
+.about .imgcontanner .aboutimg {
+    position: absolute;
+    background: url("/images/children-g1d9e64639_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    top: 80px;
+    left: 32%;
+}
+
+/* about content */
+.about .aboutcontent {
+    width: 50%;
+    padding: 80px 10% 80px 16%;
+    color: white;
+    background-color:rgb(162, 0, 255);;
+}
+.aboutcontent h5 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutcontent h1 {
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.aboutcontent p {
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+.aboutcontent a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px 40px;
+    background: linear-gradient(to right, transparent 50%, rgb(162, 0, 255) 50%);
+    background-size: 200%;
+    background-position: left;
+    border: 2px solid white;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
