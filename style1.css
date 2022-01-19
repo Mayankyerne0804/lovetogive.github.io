@@ -4,7 +4,7 @@
 }
 .container{
     box-sizing: border-box;
-    background: linear-gradient(rgba(88, 88, 88, 0.6),rgba(88, 88, 88, 0.3)),url(/images/odisha-makes-progress-in-its-fight-against-malnutrition-but-theres-still-a-long-way-to-go.jpg);
+    background: url(/images/odisha-makes-progress-in-its-fight-against-malnutrition-but-theres-still-a-long-way-to-go.jpg);
     height: 700px;
     width: 100%;
 padding: 10px;
